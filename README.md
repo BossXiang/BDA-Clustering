@@ -1,16 +1,33 @@
 # Final-Project-Big-Data
 
-## CSV Format
-**public_submission.csv**
+This repository contains the code and sample data used to demonstrate our face verification system, including encrypted inference using Tom, Liz, Winter, and 99 as subjects. The system performs identity verification and rejection using facial embeddings.
+
+---
+
+## 📂 Project Structure
+
 ```
-id,label
-1,0
-2,0
-...
+.
+├── public_data.csv           # Public data (4D)
+├── private_data.csv          # Private data (6D)
+├── Clustering.ipynb          # Main code for clustering
+├── public_submission.csv     # My clustering result of the public data (4D)
+├── private_submission.csv    # My clustering result of the private data (6D)
+└── README.md
 ```
 
+---
 
-## How to grade?
-1. Modify `public_submission.csv`.
-2. Push your file to this repository (`git push`).
-3. Wait for the outcome of git action.
+## Reproduction
+
+### 1. Load the notebook onto Google Colab
+
+### 2. Prepare the Data
+
+Upload and place the `public_data.csv` and `private_data.csv` into your working directory:
+
+### 3. Open `Clustering.ipynb` and execute the cells from the top to the bottom
+
+It will automatically generate and download:
+- `public_submission.csv`
+- `private_submission.csv`
